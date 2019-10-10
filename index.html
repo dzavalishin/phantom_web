@@ -1,1 +1,694 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Phantom OS</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Rapid
+    Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+
+    <div id="topbar">
+      <div class="container">
+        <!--
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        </div>
+        -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <h1 class="text-light"><a href="#intro" class="scrollto"><span>Phantom OS</span></a></h1>
+        <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#about">What's this OS about</a></li>
+          <li><a href="#participation">Events</a></li>
+          <li><a href="#screenshots">Screenshots</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#team">Team</a></li>
+<!--
+          <li class="drop-down"><a href="">Drop Down</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="drop-down"><a href="#">Drop Down 2</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Drop Down 5</a></li>
+            </ul>
+          </li>
+        -->
+          <li><a href="#footer">Contact Us</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container d-flex h-100">
+      <div class="row justify-content-center align-self-center">
+        <div class="col-md-6 intro-info order-md-first order-last">
+          <h2><span>Phantom</span> - forward-thinking concept of OS that's <u>not</u> Linux derived</h2>
+          <div>
+            <a href="https://github.com/dzavalishin/phantomuserland" target="_blank" class="btn-get-started scrollto">Show me code!</a>
+          </div>
+        </div>
+  
+        <div class="col-md-6 intro-img order-md-last order-first">
+          <img src="img/intro-img.svg" alt="" class="img-fluid">
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-5 col-md-6">
+            <div class="about-img">
+              
+              <a href="img2/diagram.png" data-lightbox="screenshots" data-title="Phantom structure" class="link-preview"
+                title="Preview"><img src="img2/diagram.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="col-lg-7 col-md-6">
+            <div class="about-content">
+              <h2>What is this OS about?</h2>
+              <p>Phantom is, basically, a virtual machine (VM) working in a huge persistent virtual memory. Part of the VM classes (some
+              classes, called 'internal') are implemented in kernel, giving VM code access to low level kernel services. Persistent
+              virtual memory is completely orthogonal to object space and VM (no relation between, for example, object boundary and
+              virtual memory page, etc.) and is implemented so that abrupt computer failure or loss of power leaves system in coherent
+              state. On the application code (VM bytecode) level OS shutdown (either manual or caused by failure) is not even 'seen' -
+              applications and their data are 'never die', they continue their work after the next OS boot up as if no shutdown ever
+              happened.</p>
+
+              <a href="https://github.com/dzavalishin/phantomuserland" target="_blank">code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- #about -->
+
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services" class="section-bg">
+      <div class="container">
+
+
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+              <h4 class="title">Persistent memory and snapshots</h4>
+              <p class="description">Phantom does regular snapshot of the whole virtual memory. Snapshots are done asynchronously and without stopping the
+              world, but resulting snapshot is synchronous - all the memory is being snapped at the very same moment in OS's
+              'personal' time. It means that snapshot state is captured like if all the system was stopped, dumped to disk and then
+              run again. But without stopping.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #e1eeff;"><i class="ion-ios-world-outline" style="color: #2282ff;"></i></div>
+              <h4 class="title">Native code</h4>
+              <p class="description">Hi-performance code (number-crunching, video or sound processing, etc) requires good
+                low-level access to the processor
+                and memory. It is supposed that Phantom will be able to run native code in a special binary-object-bound thread.
+                One
+                binary object will provide code (CS content), others will be available as DS/SS and, possibly, ES/FS/GS (on other
+                architectures there objects will be just mapped in thread address space). It will let Phantom to execute
+                highly-optimised native code.
+          
+                It is supposed that to support some portability it will be possible to provide not exactly native, but LLVM-level
+                code
+                for this environment.</p>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
+              <h4 class="title">Virtual machine</h4>
+              <p class="description">Phantom bytecode is traditional stack-machine bytecode. It is very like Java bytecode, but there is no difference
+              between built-in and user types on the method boundary level. Any object (even integer) is class instance. There is some
+              specific support for integer calculations though, to speedup things.
+              
+              It is supposed that Phantom bytecode can represent any Java program, and Java to Phantom bytecode converter is being
+              written. Other languages are supposed to be brought through the Java bytecode or directly, by writing specific language
+              frontend.
+              
+              C# (CLR) bytecode converter is planned, but no work is in progress yet.</p>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
+              <h4 class="title">Kernel communication</h4>
+              <p class="description">There is set of (internal) classes, which methods are implemented in kernel. These classes
+                offer kernel interface in
+                object environment. Unlike Java, in Phantom all the class code is either internal (native, in Java terms), or
+                bytecode-level.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
+              <h4 class="title">Drivers</h4>
+              <p class="description">Currently drivers are written in C and live in the kernel completely. Future releases will have possibility to write
+              drivers in userland by providing required kernel frameworks. Userland driver will be restricted to communicate with
+              given (by kernel) set of hardware resources only, and its interrupt-handling method will be guaranteed to not to be
+              paged out.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #ecebff;"><i class="ion-ios-clock-outline" style="color: #8660fe;"></i></div>
+              <h4 class="title">POSIX environment</h4>
+              <p class="description">There is (very simple) POSIX subsystem in Phantom. It is not persistent (yet?). As an example, Quake application is
+              compiled for POSIX subsystem.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #services -->
+
+
+
+    <!--==========================
+      screenshots Section
+    ============================-->
+    <section id="screenshots" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">Screenshots</h3>
+        </header>
+
+       <br/>
+
+        <div class="row screenshots-container">
+
+          <div class="col-lg-4 col-md-6 screenshots-item filter-app">
+            <div class="screenshots-wrap">
+              <img src="img2/ss_bs6.jpg" class="img-fluid" alt="">
+              <div class="screenshots-info">
+                <h4>Phantom OS</h4>
+                <div>
+                  <a href="img2/ss_bs6.jpg" data-lightbox="screenshots" data-title="Phantom OS screenshot" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 screenshots-item filter-app">
+            <div class="screenshots-wrap">
+              <img src="img2/ss_pq1.png" class="img-fluid" alt="">
+              <div class="screenshots-info">
+                <h4>Phantom OS</h4>
+                <div>
+                  <a href="img2/ss_pq1.png" data-lightbox="screenshots" data-title="Phantom OS screenshot" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 screenshots-item filter-web" data-wow-delay="0.1s">
+            <div class="screenshots-wrap">
+              <img src="img2/ss_sm2.png" class="img-fluid" alt="">
+              <div class="screenshots-info">
+                <h4>Phantom OS</h4>
+                <div>
+                  <a href="img2/ss_sm2.png" class="link-preview" data-lightbox="screenshots" data-title="Phantom OS screenshot" title="Preview"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 screenshots-item filter-app" data-wow-delay="0.2s">
+            <div class="screenshots-wrap">
+              <img src="img2/ss_fn3.png" class="img-fluid" alt="">
+              <div class="screenshots-info">
+                <h4>Phantom OS</h4>
+                <div>
+                  <a href="img2/ss_fn3.png" class="link-preview" data-lightbox="screenshots" data-title="Phantom OS screenshot" title="Preview"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 screenshots-item filter-card">
+            <div class="screenshots-wrap">
+              <img src="img2/ss_ps4.png" class="img-fluid" alt="">
+              <div class="screenshots-info">
+                <h4>Phantom OS</h4>
+                <div>
+                  <a href="img2/ss_ps4.png" class="link-preview" data-lightbox="screenshots" data-title="Phantom OS screenshot" title="Preview"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 screenshots-item filter-web" data-wow-delay="0.1s">
+            <div class="screenshots-wrap">
+              <img src="img2/ss_tr5.png" class="img-fluid" alt="">
+              <div class="screenshots-info">
+                <h4>Phantom OS</h4>
+                <div>
+                  <a href="img2/ss_tr5.png" class="link-preview" data-lightbox="screenshots" data-title="Phantom OS screenshot" title="Preview"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- #screenshots -->
+
+
+
+
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <section id="call-to-action" class="wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">JOIN US AS DEVELOPER</h3>
+            <p class="cta-text">Basically, most of <a href="https://github.com/dzavalishin/phantomuserland"
+              target="_blank">code</a> we upload is very straighforward and, sometimes, dumb. That, to some extent,
+            is on purpose. We want to have a working system first and polish it next. Besides, not all the concepts and design
+            decisions are final, so it is of no use to finalize all the implementation desisions now as well.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://github.com/dzavalishin/phantomuserland/wiki/HowToTakePart" target="_blank">How to take part?</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
+
+    
+    <!--==========================
+      Clients Section
+    ============================-->
+    <section id="testimonials">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>What people say</h3>
+        </header>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+
+            <div class="owl-carousel testimonials-carousel wow fadeInUp">
+    
+              <div class="testimonial-item">
+                <img src="img2/logo_theregister.png" class="testimonial-img" alt="">
+                <h3>The Register</h3>
+                <h4>"Russian rides Phantom to OS immortality"</h4>
+                <p>
+                  Phantom is a different approach on the OS than any other out there, with the primary goal of being immortal. In Phantom,
+                  powering off the computer will not cause programs to lose state. They can pick up where they left off as soon as the
+                  machine is turned back on.
+                </p>
+              </div>
+    <!--
+              <div class="testimonial-item">
+                <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <p>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                </p>
+              </div>
+            -->
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </section><!-- #testimonials -->
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3>Team</h3>
+          <p>People who contributed code and efforts to the Phantom OS project</p>
+        </div>
+
+        <div class="row ">
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="img2/person_dz.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Dmitry Zavalishin</h4>
+                  <span>concept, code</span>
+                  <div class="social">
+                    <a href="https://www.facebook.com/dmitry.zavalishin"><i class="fa fa-facebook"></i></a>
+                    <a href="mailto:dz@dz.ru?subject=Phantom OS"><i class="fa fa-envelope"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img2/person_seva.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Seva Gluschenko</h4>
+                  <span>QA/CI</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img2/person_blank.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Max Filippov</h4>
+                  <span>Low level kernel programming</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img2/person_you.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>It might be you</h4>
+                  <span>code</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section><!-- #team -->
+<br/>
+    <!--==========================
+      Participation Section
+    ============================-->
+    <section id="participation" class="wow fadeInUp">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Events that we participated</h3>
+          <p>There are some events where Phantom OS was presented</p>
+        </header>
+
+
+        <div class="owl-carousel clients-carousel">
+
+
+
+          <div>
+            <div style="height:110px; padding-right: 15px; padding-left: 15px;">
+              <img src="img2/logo_osday.png" alt="">
+            </div>
+            <div class="text-center">OS Day</div>
+          </div>
+
+          <div>
+            <div style="height:110px; padding-right: 15px; padding-left: 15px;">
+            <img src="img2/logo_cc.png" alt="">
+            </div>
+            <div class="text-center">Chaos Constructions</div>
+          </div>
+
+          <div>
+            <div style="height:110px; padding-right: 15px; padding-left: 15px;">
+            <img src="img2/logo_yandex.png" alt="">
+            </div>
+            <div class="text-center">Yandex Demodulation</div>
+          </div>
+
+          <div>
+            <div style="height:110px; padding-right: 15px; padding-left: 15px;">
+              <img src="img2/logo_add.jpg" alt="" style="padding-left:35px; padding-right: 35px;">
+            </div>
+            <div class="text-center">Application Developer Days</div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #clients -->
+
+
+    <!--==========================
+      Frequently Asked Questions Section
+    ============================-->
+    <section id="faq">
+      <div class="container">
+        <header class="section-header">
+          <h3>Frequently Asked Questions</h3>
+          <p>Some points in short</p>
+        </header>
+
+        <ul id="faq-list" class="wow fadeInUp">
+          <li>
+            <a data-toggle="collapse" class="collapsed" href="#faq1">Why not Linux? <i class="ion-android-remove"></i></a>
+            <div id="faq1" class="collapse" data-parent="#faq-list">
+              <p>
+                Because Linux has already existed. Phantom OS concept offer different ideas which can't be used today, but will be definitely used tommorow.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq2" class="collapsed">Why join?<i class="ion-android-remove"></i></a>
+            <div id="faq2" class="collapse" data-parent="#faq-list">
+              <p>
+                Even we can't promise you will be the author of new Windows, Linux or Android, there is real opportunity to make earth spin a little bit faster. There are true innovations under the hood.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq3" class="collapsed">Can you prove it is not fake?<i class="ion-android-remove"></i></a>
+            <div id="faq3" class="collapse" data-parent="#faq-list">
+              <p>
+                Just look at code (you can assemble and run it yourself): <a href="https://github.com/dzavalishin/phantomuserland" target="_blank">github</a>
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq4" class="collapsed">Your ideas about persistance, objects and vm are old ones!<i class="ion-android-remove"></i></a>
+            <div id="faq4" class="collapse" data-parent="#faq-list">
+              <p>
+                True. Everything used in today's OS was invented mostly in 1960th. The point is how to combine and use these known ideas to get new characteristics. Even same ideas works differently depending on the particular epoch.
+              </p>
+            </div>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </section><!-- #faq -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer" class="section-bg">
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-5 col-md-6">
+
+                  <div class="footer-links">
+                    <h4>Drop us a line</h4>
+                    <p>
+                      Dmitry Zavalishin <br>
+                      <strong>Email:</strong> <a href="mailto:dz@dz.ru?subject=Phantom OS">dz@dz.ru</a><br>
+                    </p>
+                  </div>
+
+            
+
+
+
+<!--
+                  <div class="social-links">
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                  </div>
+-->
+
+            
+
+          </div>
+
+          <div class="col-lg-7 col-md-6">
+
+                  <div class="footer-links">
+                  
+                    <h4>Links</h4>
+                    <ul>
+                      <li><a href="https://www.youtube.com/watch?v=ocqyZO-5VsA" target="_blank">Lecture in Innopolis University</a></li>
+                      <li><a href="https://en.wikipedia.org/wiki/Phantom_OS" target="_blank">Phantom OS @ Wiki</a></li>
+                      <li><a href="https://www.theregister.co.uk/2009/02/03/phantom_russian_os/" target="_blank">The Register about Phantom
+                          OS</a></li>
+                      <li><a href="https://habr.com/ru/search/?q=%5B%D1%84%D0%B0%D0%BD%D1%82%D0%BE%D0%BC%20%D0%BE%D1%81%5D&target_type=posts" target="_blank">Several articles about Phantom (rus)</a></li>
+			<li><a href="https://github.com/dzavalishin/phantomuserland" target="_blank">github</a></li>
+                                            
+                    </ul>
+                  </div>
+
+          </div>
+
+          
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
+        -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
